@@ -1,6 +1,7 @@
 # Input-Prioritization-for-DL-systems
-This work compares test input prioritization techniques of different types in terms of their effectiveness and efficiency. In particular, we consider surprise adequacy, autoencoder- based, and similarity-based input prioritization approaches in the example of testing a DL image classification algorithm applied on MNIST, Fashion-MNIST, CIFAR-10, and STL-10 datasets. We use a modified APFD (Average Percentage of Fault Detected) as the test input prioritization performance measure to operationalize the effectiveness.
-How to run the experiments
+This work compares test input prioritization techniques of different types in terms of their effectiveness and efficiency. In particular, we consider surprise adequacy, autoencoder- based, and similarity-based input prioritization approaches in the example of testing a DL image classification algorithm applied on MNIST, Fashion-MNIST, CIFAR-10, and STL-10 datasets. We use a modified APFD (Average Percentage of Fault Detected) as the test input prioritization performance measure to operationalize the effectiveness. 
+We have used Tensorflow as backend to execute. We are adding sequncially instruction to run this project. 
+
 Run training_cnn.py to train CNN. Change the number of epochs if needed.
 Run training_ae.py to train AE. Change the number of epochs if needed.
 Run training_vae.py to train VAE. Change the number of epochs if needed.
